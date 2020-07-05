@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}  
+body{
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+header{
+    text-align: right;
+    margin: 0 .75em;
+    font-size:50px;
+    font-weight:100;
+    position: relative;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+header nav li{
+    display:inline-block;
+}
+header nav li a{
+    background-color: #2af598;
+    color: #16774b;
+    font-size: 25px;
+    right: 0px; 
+    margin-right: auto;
+    list-style: none;
+    text-decoration: none;
+}
+header nav li a:hover{
+    background-color:  #2af598;
+    color: white;
+}
+.menu{
+    border:1px solid #2af598;
+    padding: 5px;
+    box-shadow: 5px -5px 3px  #16774b;
+    border-radius: 8%;
+}
+
+
+.cumbuca{ 
+    position: relative;
+    top: 40px;
+    width: 100vw;
+    display: flex;   
+    font-size: 25px; 
+}
+
+.cumbuca li{
+    text-align: center;
+    
+}
+#Descriçao{
+    justify-content: start;
+    align-items: center;
+   
+
+}
+#contatos{
+    
+    margin-top: 3px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
+article{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+    padding:auto;
+    margin-top: 60px;
+}
+ .img{
+    height: 150px;
+}
+
+
+#Bebidas .ngri{
+    margin:0.2em 0;
+   font-weight: bold;
+   font-size: 25px;
+
+}
+.bebi{
+    height: 200px;
+    margin: 1px;
+}
+#Petisco ul li{
+    font-size: 50px;
+    
+}
+    
+
+footer{
+    text-align: start;
+}
+@media ( max-width:600px){
+    .bebi,.img,.descri{
+        display: none;
+    }
+    .cumbuca{
+        justify-content: center;
+        
+    }
+    .cumbuca ul{
+        list-style: none;
+        font-size: 25px;
+    }
+    
+    footer{
+        text-align: end;
+    }
+
+}
